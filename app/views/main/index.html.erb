@@ -1,4 +1,3 @@
-<h1>Pulling data from DOC: <%= @title %></h1>
 <!-- Navigation
     <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
         <div class="container">
@@ -79,13 +78,10 @@
                     <div class="caption">
 	                    <span class="gppr-ministry">Interhigh</span>
 	                    <div class="gppr-one">
-							<span class="gppr-numone">316</span><span class="gppr-labelone">College Students</span>
-	                    </div>
-	                    <div class="gppr-two">
-							<span class="gppr-numtwo">316</span><span class="gppr-labeltwo">College Students</span>
+                          <span class="gppr-numone"><%= @interhigh['num'] %></span><span class="gppr-labelone">Volunteers</span>
 	                    </div>
 						<div class="gppr-desc">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <%= @interhigh['desc'] %>
 						</div>
 						<div class="gppr-button">
 							<a href="http://www.interhigh.org/" taget="_blank" class="gppr-buttontext">Visit Website</a>
@@ -99,13 +95,10 @@
                     <div class="caption">
 	                    <span class="gppr-ministry">ECM</span>
 	                    <div class="gppr-one">
-							<span class="gppr-numone">316</span><span class="gppr-labelone">College Students</span>
-	                    </div>
-	                    <div class="gppr-two">
-							<span class="gppr-numtwo">316</span><span class="gppr-labeltwo">College Students</span>
+                          <span class="gppr-numone"><%= @ecm['num'] %></span><span class="gppr-labelone">Volunteers</span>
 	                    </div>
 						<div class="gppr-desc">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                          <%= @ecm['desc'] %>
 						</div>
 						<div class="gppr-button">
 							<a href="http://www.gracepointecm.org/" taget="_blank" class="gppr-buttontext">Visit Website</a>
@@ -119,13 +112,13 @@
                     <div class="caption">
 	                    <span class="gppr-ministry">V-Doc</span>
 	                    <div class="gppr-one">
-							<span class="gppr-numone">316</span><span class="gppr-labelone">College Students</span>
+                          <span class="gppr-numone"><%= @vdoc['num'] %></span><span class="gppr-labelone">Volunteers</span>
 	                    </div>
 	                    <div class="gppr-two">
-							<span class="gppr-numtwo">316</span><span class="gppr-labeltwo">College Students</span>
+                          <span class="gppr-numtwo"><%= @vdoc['homes'] %></span><span class="gppr-labeltwo">Homes</span>
 	                    </div>
 						<div class="gppr-desc">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <%= @vdoc['desc'] %>
 						</div>
 						<div class="gppr-button">
 							<a href="#" taget="_blank" class="gppr-buttontext">Visit Website</a>
@@ -145,13 +138,10 @@
                     <div class="caption">
 	                    <span class="gppr-ministry" style="letter-spacing: 0px;font-size: 1.7em;line-height: 1.2em;">Compassion Int'l World Vision</span>
 	                    <div class="gppr-one">
-							<span class="gppr-numone">316</span><span class="gppr-labelone">College Students</span>
-	                    </div>
-	                    <div class="gppr-two">
-							<span class="gppr-numtwo">316</span><span class="gppr-labeltwo">College Students</span>
+							<span class="gppr-numone"><%= @compassion['num']%></span><span class="gppr-labelone">Compassion Kids Supported</span>
 	                    </div>
 						<div class="gppr-desc">
-							<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+                            <%= @compassion['desc'] %>
 						</div>
 						<div class="gppr-button">
 							<a href="#" taget="_blank" class="gppr-buttontext">Visit Website</a>
