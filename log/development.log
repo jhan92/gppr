@@ -1,0 +1,7 @@
+Started GET "/" for ::1 at 2016-10-16 23:46:20 -0700
+Processing by MainController#index as HTML
+  Rendering main/index.html.erb within layouts/application
+  Rendered main/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 789ms (Views: 779.4ms | ActiveRecord: 0.0ms)
+
+
