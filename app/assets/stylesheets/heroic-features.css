@@ -1,0 +1,202 @@
+/*
+ * Start Bootstrap - Heroic Features (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+.gppr-body {
+    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+    transition: all 0.5s;
+}
+
+.visible {
+    opacity: 1;
+}
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+    margin: 50px 0;
+}
+
+.gppr-purple {
+    background: rgba(145,49,193,1);
+    background: -moz-linear-gradient(-45deg, rgba(145,49,193,1) 0%, rgba(55,0,128,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(145,49,193,1)), color-stop(100%, rgba(55,0,128,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(145,49,193,1) 0%, rgba(55,0,128,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(145,49,193,1) 0%, rgba(55,0,128,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(145,49,193,1) 0%, rgba(55,0,128,1) 100%);
+    background: linear-gradient(135deg, rgba(145,49,193,1) 0%, rgba(55,0,128,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9131c1', endColorstr='#370080', GradientType=1 );
+}
+
+.gppr-blue {
+    background: rgba(102,179,237,1);
+    background: -moz-linear-gradient(-45deg, rgba(102,179,237,1) 0%, rgba(10,77,132,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(102,179,237,1)), color-stop(100%, rgba(10,77,132,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(102,179,237,1) 0%, rgba(10,77,132,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(102,179,237,1) 0%, rgba(10,77,132,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(102,179,237,1) 0%, rgba(10,77,132,1) 100%);
+    background: linear-gradient(135deg, rgba(102,179,237,1) 0%, rgba(10,77,132,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#66b3ed', endColorstr='#0a4d84', GradientType=1 );
+}
+
+.gppr-teal {
+    background: rgba(79,214,203,1);
+    background: -moz-linear-gradient(-45deg, rgba(79,214,203,1) 0%, rgba(5,114,99,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(79,214,203,1)), color-stop(100%, rgba(5,114,99,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(79,214,203,1) 0%, rgba(5,114,99,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(79,214,203,1) 0%, rgba(5,114,99,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(79,214,203,1) 0%, rgba(5,114,99,1) 100%);
+    background: linear-gradient(135deg, rgba(79,214,203,1) 0%, rgba(5,114,99,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4fd6cb', endColorstr='#057263', GradientType=1 );
+}
+
+.gppr-red {
+    background: rgba(230,67,67,1);
+    background: -moz-linear-gradient(-45deg, rgba(230,67,67,1) 0%, rgba(158,11,11,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(230,67,67,1)), color-stop(100%, rgba(158,11,11,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(230,67,67,1) 0%, rgba(158,11,11,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(230,67,67,1) 0%, rgba(158,11,11,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(230,67,67,1) 0%, rgba(158,11,11,1) 100%);
+    background: linear-gradient(135deg, rgba(230,67,67,1) 0%, rgba(158,11,11,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e64343', endColorstr='#9e0b0b', GradientType=1 );
+}
+
+.gppr-orange {
+    background: rgba(252,177,65,1);
+    background: -moz-linear-gradient(-45deg, rgba(252,177,65,1) 0%, rgba(235,109,26,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(252,177,65,1)), color-stop(100%, rgba(235,109,26,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(252,177,65,1) 0%, rgba(235,109,26,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(252,177,65,1) 0%, rgba(235,109,26,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(252,177,65,1) 0%, rgba(235,109,26,1) 100%);
+    background: linear-gradient(135deg, rgba(252,177,65,1) 0%, rgba(235,109,26,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcb141', endColorstr='#eb6d1a', GradientType=1 );
+}
+
+.gppr-green {
+    background: rgba(30,134,44,1);
+    background: -moz-linear-gradient(-45deg, rgba(30,134,44,1) 0%, rgba(10,90,19,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(30,134,44,1)), color-stop(100%, rgba(10,90,19,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(30,134,44,1) 0%, rgba(10,90,19,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(30,134,44,1) 0%, rgba(10,90,19,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(30,134,44,1) 0%, rgba(10,90,19,1) 100%);
+    background: linear-gradient(135deg, rgba(30,134,44,1) 0%, rgba(10,90,19,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1e862c', endColorstr='#0a5a13', GradientType=1 );
+}
+
+.gppr-tan {
+    background: rgba(197,175,129,1);
+    background: -moz-linear-gradient(-45deg, rgba(197,175,129,1) 0%, rgba(179,152,95,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(197,175,129,1)), color-stop(100%, rgba(179,152,95,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(197,175,129,1) 0%, rgba(179,152,95,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(197,175,129,1) 0%, rgba(179,152,95,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(197,175,129,1) 0%, rgba(179,152,95,1) 100%);
+    background: linear-gradient(135deg, rgba(197,175,129,1) 0%, rgba(179,152,95,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c5af81', endColorstr='#b3985f', GradientType=1 );
+}
+
+.gppr-black {
+    background: rgba(82,82,82,1);
+    background: -moz-linear-gradient(-45deg, rgba(82,82,82,1) 0%, rgba(36,36,36,1) 100%);
+    background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(82,82,82,1)), color-stop(100%, rgba(36,36,36,1)));
+    background: -webkit-linear-gradient(-45deg, rgba(82,82,82,1) 0%, rgba(36,36,36,1) 100%);
+    background: -o-linear-gradient(-45deg, rgba(82,82,82,1) 0%, rgba(36,36,36,1) 100%);
+    background: -ms-linear-gradient(-45deg, rgba(82,82,82,1) 0%, rgba(36,36,36,1) 100%);
+    background: linear-gradient(135deg, rgba(82,82,82,1) 0%, rgba(36,36,36,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#525252', endColorstr='#242424', GradientType=1 );
+}
+
+.gppr-thumbnail {
+    display: block;
+    padding: 15px;
+    line-height: 1.42857143;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    -webkit-transition: border .2s ease-in-out;
+    -o-transition: border .2s ease-in-out;
+    transition: border .2s ease-in-out;
+    min-height: 265px;
+    font-family: "avenir", avenir, sans-serif;
+}
+
+.gppr-ministry {
+    display: block;
+    font-size: 2.5em;
+    font-weight: 200;
+    color: #fff;
+    min-height:55px;
+    line-height: 1.6em;
+}
+
+.gppr-one, .gppr-two, .gppr-desc, .gppr-button {
+    display:block;
+    clear:both;
+}
+.gppr-numone, .gppr-numtwo {
+    font-size: 1.75em;
+    color: #fff;
+    padding-left: 5px;
+}
+
+.gppr-labelone, .gppr-labeltwo {
+    font-size: 1.15em;
+    color: #fff;
+    padding-left: 10px;
+}
+
+.gppr-desc {
+    padding: 5px 0px;
+    color: #fff;
+    font-size: 0.9em;
+    min-height: 70px;
+}
+
+.gppr-button {
+    display: inline-block;
+    padding: 6px 12px;
+    margin-bottom: 0;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.42857143;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-image: none;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: transparent;
+    border-color: #fff;
+}
+
+.gppr-button:hover {
+    border-color: rgba(0,0,0,0.2);
+}
+
+.gppr-buttontext {
+    color: #fff;
+    text-decoration:none;
+}
+
+.gppr-buttontext:hover {
+    color: #fff;
+    text-decoration:none;
+}
+
+a:visited {
+	color:#fff;
+}
