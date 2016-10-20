@@ -13,7 +13,7 @@ class MainController < ApplicationController
   
   def index
     session = GoogleDrive::Session.from_config("config.json")
-    ws = session.spreadsheet_by_key("1A8cUX-nHnyXOcIxuhKMcZm1Wu7MZtlrTV8UZzZ6nCDI").worksheets[0]
+    ws = session.spreadsheet_by_key("19bQFCuK47OVP9b_3CkHX4OSUOyXUdJBqYRB3Dj-fhG0").worksheets[0]
     @title = ws[1,1]
 
     @impact = {}
